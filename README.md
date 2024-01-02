@@ -1,4 +1,4 @@
-Agriculture low-resolution image super-resolution
+Agriculture low-resolution(LR) image super-resolution(SR)
 
 CNCAN
 
