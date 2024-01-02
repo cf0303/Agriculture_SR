@@ -16,13 +16,7 @@ model = IMDN(upscale=4)
 #model = RFDN(upscale=4)
 #model = BSRN(upscale=4)
 #model = ESRT(upscale=4)
-
-#model = CGNet(classes=11)
-#model = DABNet(classes=11)
-#model = FPENet(classes=11)
-#model = DeepLab_v3_plus(num_classes = 11, pretrained = False)
-
-#model = model_proposed()
+#model = CNCAN()
 '''
 class _model(nn.Module):
     def __init__(self):
@@ -38,11 +32,11 @@ class _model(nn.Module):
 
 model = _model()
 '''
-#_B, _C, _H, _W = 1, 3, 90, 120
-#_B, _C, _H, _W = 1, 3, 360, 480
+#_B, _C, _H, _W = 1, 3, 160, 120
+#_B, _C, _H, _W = 1, 3, 640, 480
 
-_B, _C, _H, _W = 1, 3, 256, 512
-#_B, _C, _H, _W = 1, 3, 1024, 2048
+#_B, _C, _H, _W = 1, 3, 120, 160
+#_B, _C, _H, _W = 1, 3, 480, 640
 
 print("\n --- Info ---\n")
 summary(model, input_size=(_B, _C, _H, _W))
