@@ -5,7 +5,7 @@ CNCAN
 Dataset
  Bonirob: MTS_CNN version Bonirob dataset
  
- LRn Bonirob: https://drive.google.com/drive/folders/13FqkmL9Jj6eqsMVC-tMSUXWCLqf75eQg?usp=drive_link
+ LR Bonirob: https://drive.google.com/drive/folders/13FqkmL9Jj6eqsMVC-tMSUXWCLqf75eQg?usp=drive_link
  
  rice-seedling: https:MTS_CNN version rice-seedling dataset
  
