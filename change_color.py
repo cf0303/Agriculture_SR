@@ -24,7 +24,7 @@ def resize(path_list, save_path):
         # io.show()
         img = cv2.imwrite(save_path + name + '.png', img)
 
-te_low_resolution_IMG = glob.glob('/home/418c88ce-ada6-264b-8f1a-e52065f873a6/dataset/SR_results/ablation8(BGR)/CNCAN/*')
-te_save_path_IMG = ('/home/418c88ce-ada6-264b-8f1a-e52065f873a6/dataset/SR_results/ablation8(RGB)/')
+te_low_resolution_IMG = glob.glob('')
+te_save_path_IMG = ('')
 
 resize(te_low_resolution_IMG,te_save_path_IMG)

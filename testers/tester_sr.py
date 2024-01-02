@@ -27,15 +27,9 @@ from utils.data_load_n_save import *
 from utils.data_tool import *
 
 
-# https://github.com/KyungBong-Ryu/Codes_implementation/blob/main/BasicSR_NIQE.py
-# from DLCs.BasicSR_NIQE import calc_niqe_with_pil
-# from DLCs.BasicSR_NIQE import calc_niqe as _calc_niqe
 
 
-# 2. SR
-#       SR_A -> 출력이 list 형태인 모델
 list_sr_model_type_a = ["MPRNet", "ARNet"]
-#       SR_B -> 출력이 단일 tensor 형태인 모델
 list_sr_model_type_b = ["ESRT", "HAN", "IMDN", "BSRN", "RFDN", "PAN", "LAPAR_A", "CNCAN"]
 
 def tester_sr(**kargs):
@@ -64,12 +58,7 @@ def tester_sr(**kargs):
              )
     '''
     
-    # [ 입출력 Data 관련 ] -----------------------------
-    # 경로: 입력
-    # PATH_BASE_IN = kargs['PATH_BASE_IN']
-    # NAME_FOLDER_TEST = kargs['NAME_FOLDER_TEST']
-    # NAME_FOLDER_IMAGES = kargs['NAME_FOLDER_IMAGES']
-    
+
     path_input_hr_images = kargs['path_input_hr_images']
     if path_input_hr_images[-1] != '/':
         path_input_hr_images += '/'

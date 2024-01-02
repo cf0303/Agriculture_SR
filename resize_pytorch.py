@@ -192,58 +192,14 @@ def resize_4(path_list, save_path):
         img = cv2.resize(img, dsize = (w//2,h//2), fx = 0, fy = 0, interpolation=cv2.INTER_LINEAR)
         img = cv2.imwrite(save_path + name +'.png', img)
 
-# tr_low_resolution = glob.glob('C:/Users/sungje/Desktop/data/datasets_IJRR2017/train/image/*')
-tr_low_resolution_IMG1 = glob.glob('E:/LAB/datasets/project_use/IJRR2017/A_set/train/images/*')
-tr_low_resolution_IMG2 = glob.glob('E:/LAB/datasets/project_use/IJRR2017/A_set/val/images/*')
-tr_low_resolution_IMG3 = glob.glob('E:/LAB/datasets/project_use/IJRR2017/A_set/test/images/*')
-# tr_save_path = ('C:/Users/sungje/Desktop/data/datasets_IJRR2017/train/tr_low_resolution_LINEAR_64_1024/')
-te_save_path_IMG1 = ('E:/LAB/datasets/project_use/IJRR2017_DLC/resize_all/images_resize_2/')
-te_save_path_IMG2 = ('/media/sungjae/LINUX1/dataset/LAB/datasets/project_use/rice_s_n_w/resize_set/train/images/')
-te_save_path_IMG3 = ('/media/sungjae/LINUX1/dataset/LAB/datasets/project_use/rice_s_n_w/resize_set/val/images/')
+tr_low_resolution_IMG = glob.glob('')
 
+te_save_path_IMG = ('')
 
-t_low_resolution_IMG1 = glob.glob('/LAB/datasets/project_use/IJRR2017_DLC/resize_all/images/*.png')
-t_low_resolution_IMG2 = glob.glob('/media/sungjae/LINUX1/dataset/LAB/datasets/project_use/rice_s_n_w/resize_set/train/images/*.png')
-t_low_resolution_IMG3 = glob.glob('/media/sungjae/LINUX1/dataset/LAB/datasets/project_use/rice_s_n_w/resize_set/val/images/*.png')
-t_save_path_IMG1 = ('/LAB/datasets/project_use/IJRR2017_DLC/resize_8/images/')
+t_low_resolution_IMG = glob.glob('')
+t_save_path_IMG = ('')
 
-
-# for i in range(len(te_low_resolution_IMG)):
-#     name = te_low_resolution_IMG[i].split('\\')
-#     name = name[0].split('/')[-1]
-#     name = name.split('.')[0]
-#     print(name)
-# resize(tr_low_resolution, tr_save_path)
-# resize(tr_low_resolution_IMG1, te_save_path_IMG1)
-# resize(tr_low_resolution_IMG2, te_save_path_IMG2)
-# resize(tr_low_resolution_IMG3, te_save_path_IMG3)
-
-# resize_4(t_low_resolution_IMG1, t_save_path_IMG1)
-resize(tr_low_resolution_IMG1, te_save_path_IMG1)
-resize(tr_low_resolution_IMG2, te_save_path_IMG1)
-resize(tr_low_resolution_IMG3, te_save_path_IMG1)
-
-# resize1(tr_low_resolution_IMG_1, te_save_path_IMG_1)
-
-# resize2(te_low_resolution_IMG, te_save_path_IMG_2)
-# # resize3(te_low_resolution_IMG, te_save_path_IMG_3)
-# resize(te_low_resolution_IMG, te_save_path_IMG)
-
-###############target 안에 있는 이미지들 이름만 불러오기
-# a = os.listdir("C:/Users/sungje/Desktop/data/IJRR2017/mpr/train/target/")
-# w = open("C:/Users/sungje/Desktop/data/IJRR2017/mpr/train/train.txt", "w")
-#
-# for data in a:
-#     w.write(data)
-#     w.write("\n")
-#     w.flush()
-
-# f = open("train.txt", 'r')
-# lines = f.readline()
-# n=1
-# for lpLine in f:
-#     n= n+1
-# f.close()
+resize(tr_low_resolution_IMG, te_save_path_IMG)
 
 
 

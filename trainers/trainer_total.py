@@ -1,13 +1,4 @@
-# trainer_dsrl.py -> trainer_sssr.py
-# Dual Super-Resolution Learning
-# 단일 Encoder & 개별 Decoder로 SS & SR 동시에 시행하는 구조
-# [memo] --------------
-# https://pytorch.org/tutorials/recipes/recipes/amp_recipe.html
-# AMP(Automatic Mixed Precision) 사용됨
 
-
-
-# [기본 라이브러리]----------------------
 import os
 import numpy as np
 import random
@@ -23,8 +14,7 @@ import torchvision
 import torchvision.transforms as transforms
 from torchvision.transforms.functional import to_pil_image
 
-import ignite   #pytorch ignite
-
+import ignite   
 import argparse
 import matplotlib.pyplot as plt
 from PIL import Image

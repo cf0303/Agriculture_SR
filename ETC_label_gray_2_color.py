@@ -2,8 +2,8 @@ import os
 from PIL import Image
 from utils.data_tool import label_2_RGB, imshow_pil
 
-path_in = "C:/LAB/datasets/project_use/CamVid_12_DLC_v1/original/labels"
-path_out = "C:/LAB/tmp"
+path_in = ""
+path_out = ""
 
 
 #라벨 당 컬러 지정 (CamVid 12)
