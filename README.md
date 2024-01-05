@@ -6,7 +6,7 @@
 
     https://drive.google.com/drive/folders/13FqkmL9Jj6eqsMVC-tMSUXWCLqf75eQg?usp=drive_link
     
-  * Low resolution images of rice seedling and weeds dataset:
+  * Low resolution images of rice seedling and weed dataset:
 
     https://drive.google.com/drive/folders/1FNS4C3sehceJLBZXO4wnjaw8d29PGD1i?usp=drive_link
  
@@ -16,7 +16,7 @@
 
 ***
 
-# Super resolution weight
+# CNCAN weight
 
   ## Bonirob
 
@@ -25,7 +25,7 @@
   * CNCAN_S: https://drive.google.com/drive/folders/1Vk_fSAktwpY_wwfosX0n9Yu68ei8nCcI?usp=sharing
   
 
-  ## Rice seeling and weed
+  ## Rice seedling and weed
 
   * CNCAN_L: https://drive.google.com/drive/folders/1tz6YT4iN49YcIWKXPDbdQHHNfRuZXghi?usp=sharing
 
