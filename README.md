@@ -1,19 +1,28 @@
-Agriculture low-resolution(LR) image super-resolution(SR)
-
-CNCAN
-
 Dataset
- Bonirob: MTS_CNN version Bonirob dataset
- 
- LR Bonirob: https://drive.google.com/drive/folders/13FqkmL9Jj6eqsMVC-tMSUXWCLqf75eQg?usp=drive_link
- 
- rice-seedling: https:MTS_CNN version rice-seedling dataset
- 
- LR rice-seedling: https://drive.google.com/drive/folders/1FNS4C3sehceJLBZXO4wnjaw8d29PGD1i?usp=drive_link
- 
- CWFID: https: MTS_CNN version CWFID dataset
- 
- LR CWFID: //drive.google.com/drive/folders/1voZv5-q8JP1Q8kgXMk07k9_4HOXTGu2m?usp=sharing
 
- MTS-CNN git: https://github.com/Kimyuhwanpeter/MTS-CNN
- MTS-CNN paper: https://www.sciencedirect.com/science/article/pii/S016816992200463X
+  Low resolution images of Bonirob dataset: https://drive.google.com/drive/folders/13FqkmL9Jj6eqsMVC-tMSUXWCLqf75eQg?usp=drive_link
+ 
+  Low resolution images of rice seedling and weeds dataset: https://drive.google.com/drive/folders/1FNS4C3sehceJLBZXO4wnjaw8d29PGD1i?usp=drive_link
+ 
+  Low resolution images of CWFID dataset: //drive.google.com/drive/folders/1voZv5-q8JP1Q8kgXMk07k9_4HOXTGu2m?usp=sharing
+
+
+Super resolution weight
+
+  Bonirob
+
+    CNCAN_L: https://drive.google.com/drive/folders/1h_87tc06EZX4Km24qB1y8mz-R-zZ-7WK?usp=sharing
+
+    CNCAN_S: https://drive.google.com/drive/folders/1Vk_fSAktwpY_wwfosX0n9Yu68ei8nCcI?usp=sharing
+
+  Rice seeling and weeds
+
+    CNCAN_L: https://drive.google.com/drive/folders/1tz6YT4iN49YcIWKXPDbdQHHNfRuZXghi?usp=sharing
+
+    CNCAN_S: https://drive.google.com/drive/folders/1tw5P924FlIaABGGErL-qScTpmT1frTBk?usp=sharing
+
+  CWFID
+
+    CNCAN_L: https://drive.google.com/drive/folders/1FjzijxHjGjg104QGcM56LNc7109SRotu?usp=sharing
+
+    CNCAN_S: https://drive.google.com/drive/folders/14RbQuUcg39Gx-b4CuGhiNSXD74sN-oxW?usp=sharing
