@@ -4,15 +4,15 @@
    
   * Low resolution images of Bonirob dataset:
 
-    https://drive.google.com/drive/folders/13FqkmL9Jj6eqsMVC-tMSUXWCLqf75eQg?usp=drive_link
+    https://drive.google.com/drive/folders/1UFgrC6hQquvYmq9sqXX2D9k173E2Va_V?usp=sharing
     
   * Low resolution images of rice seedling and weed dataset:
 
-    https://drive.google.com/drive/folders/1FNS4C3sehceJLBZXO4wnjaw8d29PGD1i?usp=drive_link
+    https://drive.google.com/drive/folders/17hv2RXSQ3PR5H9NW9ymOhrLR_nLCQHwJ?usp=sharing
  
   * Low resolution images of CWFID dataset:
 
-    https://drive.google.com/drive/folders/1voZv5-q8JP1Q8kgXMk07k9_4HOXTGu2m?usp=sharing
+    https://drive.google.com/drive/folders/1VjbHT0cyXoBfCsLUj4cjvUYq7qeVfPRX?usp=sharing
 
 ***
 
