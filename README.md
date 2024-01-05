@@ -25,7 +25,7 @@
   * CNCAN_S: https://drive.google.com/drive/folders/1Vk_fSAktwpY_wwfosX0n9Yu68ei8nCcI?usp=sharing
   
 
-  ## Rice seeling and weeds
+  ## Rice seeling and weed
 
   * CNCAN_L: https://drive.google.com/drive/folders/1tz6YT4iN49YcIWKXPDbdQHHNfRuZXghi?usp=sharing
 
